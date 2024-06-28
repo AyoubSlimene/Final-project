@@ -155,3 +155,32 @@
     font-weight: bold;
     margin-bottom: 10px;
   }
+  /* card1*/
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between img and video */
+    margin-bottom: 20px; /* Optional: add some space between media and text */
+}
+
+.media img, .media iframe{
+    max-width: 100%; /* Ensure media items are responsive */
+}
+.media img {
+  
+  height: 500px;
+}
+.text-content {
+    text-align: left; /* Align text content to the left */
+}
+
+/* card2 */
+
